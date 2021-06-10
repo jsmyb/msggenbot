@@ -87,8 +87,8 @@ async def talk(message: Message) -> None:
             async with AIOFile(f"db/{peer_id}.txt", "a") as f:
                 await f.write(f"\n{text}")
 
-        # 5% percentage of sending
-        if randint(0, 9) == 0 or @bot.on.chat_message(text=["seqso"]):
+        # 5% percentage of sending  
+        if randint(0, 9) == 0 or ({chat_message}(text=["seqso"])):
             # reading db
             async with AIOFile(f"db/{peer_id}.txt") as f:
                 db = await f.read()
