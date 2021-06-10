@@ -1,0 +1,2 @@
+# -*- coding: utf-8 -*-
+BOT_TOKEN = "7060cc9a68396016e06ac4387ffcf8872038b8d8b7c40cfad75ca5179ca9573b9fb6e089e47dae3342973"
